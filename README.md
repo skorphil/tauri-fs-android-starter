@@ -1,6 +1,6 @@
 # Tauri-fs
 Playground to test Tauri storage handling on Android.
-Further information in article: 
+Further information in article: https://philrich.dev/tauri-fs-android/
 
 
 <img src="./public/app.jpg" alt="App Screenshot" width="300">
