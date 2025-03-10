@@ -1,0 +1,39 @@
+{
+  "name": "tauri-fs",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@10.6.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "build:android-debug": "tauri android build --debug"
+  },
+  "dependencies": {
+    "@ionic/react": "^8.4.3",
+    "@ionic/react-router": "^8.4.3",
+    "@tauri-apps/api": "^2.3.0",
+    "@tauri-apps/plugin-dialog": "~2",
+    "@tauri-apps/plugin-fs": "~2.2.0",
+    "@tauri-apps/plugin-opener": "^2.2.6",
+    "ionicons": "^7.4.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.3.1",
+    "@types/node": "^22.13.10",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
